@@ -158,15 +158,15 @@
         transform: translateX(174px) translateY(70px);
     }
 
-    60% {
+    65% {
         transform: translateX(-60px) translateY(70px);
     }
 
-    61% {
+    66% {
         transform: translateX(-35px) translateY(60px);
     }
 
-    80% {
+    87% {
         transform: translateX(-35px) translateY(0px);
     }
 
