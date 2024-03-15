@@ -42,10 +42,16 @@
     transform: scale(0.5);
 }
 
-.well {
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img {
     transition: all 1s;
 }
 
-.well img:hover {
-    filter: grayscale(100%);
+.ex-7-img:hover {
+    filter: sepia(60%);
+    filter: grayscale(20%);
+    
 }
