@@ -54,3 +54,12 @@
     filter: sepia(60%) grayscale(25%);
 }
 
+.ex-8-img {
+    transition: all 1s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(60%) grayscale(25%);
+    border-radius: 20px;
+}
+
