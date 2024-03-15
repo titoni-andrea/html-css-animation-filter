@@ -74,24 +74,69 @@
 }
 
 .ex-10-icon {
-    animation: spin 1s linear infinite;   
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
-    0%   {transform: rotate(360deg);}
-    100% {transform: rotate(0deg);}
-  }
+    0% {
+        transform: rotate(360deg);
+    }
 
-  .ex-11-icon:hover {
-    animation: spin2 2s linear;   
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 .ex-11-icon:hover {
-    animation-direction: alternate;   
+    animation: spin2 1.4s linear;
 }
 
 @keyframes spin2 {
-    0%   {transform: rotate(0deg);}
-    90% {transform: rotate(300deg);}
-    100% {transform: rotate(0deg);}
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    80% {
+        transform: rotate(300deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: top-white 1.5s linear  ;
+}
+
+@keyframes top-white {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(80px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottom-white 1.5s linear  ;
+}
+
+@keyframes bottom-white {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-70px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
